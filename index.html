@@ -16,32 +16,37 @@
 
 <body>
     <header>
-        <div class="container">
-            <div class="xs-col-12">
+        <div class="container d-flex flex-col md-flex-row">
+            <div class="xs-col-12 md-col-3">
                 <h2>TRAB04</h2>
             </div>
-            <div class="xs-col-12">
+            <div class="xs-col-12 md-col-6">
                 <nav>
-                    <ul>
-                        <li>
-                            <a href="">features</a>
+                    <ul class="list-unstyled md-flex flex-justify-space-around">
+                        <li class="py-8 p-relative">
+                            <a class="color-text-indigo-dark-900 text-decoration-none" href="">features</a>
                         </li>
-                        <li>
-                            <a href="">About</a>
+                        <li class="py-8 p-relative">
+                            <a class="color-text-indigo-dark-900 text-decoration-none" href="">About</a>
                             <div class="animated-line"></div>
                         </li>
-                        <li>
-                            <a href="">contact</a>
-                            <div class="animated-line"></div>
+                        <li class="py-8 p-relative">
+                            <a class="color-text-indigo-dark-900 text-decoration-none" href="">contact</a>
+                            <div
+                                class="animated-line h-2 w-0 p-absolute direction-left-0 direction-bottom-0 color-bg-indigo-primary-500">
+                            </div>
                         </li>
                     </ul>
                 </nav>
             </div>
-            <div class="xs-col-12">
-                <button>sign up</button>
+            <div class="xs-col-12 md-col-3">
+                <button
+                    class="p-8 border-radius-10 w-100 border-none color-text-white color-bg-indigo-primary-500 cursor-pointer">sign
+                    up</button>
             </div>
         </div>
     </header>
+
 
 
     <main>
@@ -51,20 +56,27 @@
                     consectetur porro iure vitae delectus ea veritatis saepe repellat ut? Amet temporibus debitis eum
                     tenetur! Illo, veritatis illum!</p>
                 <div class="modal-theme-light">
-                    <div class="modal-theme-light">
-                        <div class="modal-clos-btn">
-                            <img src="vg/close-gray-700.svg" alt="close">
+                    <div
+                        class="modal-theme-light p-relative py-8 mb-10 border-1 color-border-gray-primary-300 border-radius-5">
+                        <div class="modal-clos-btn p-absolute direction-right-5 direction-top-5 cursor-pointer">
+                            <img src="svg/close-gray-700.svg" alt="close">
                         </div>
                         <div class="col-xs-12">
-                            <div class="modal-header">
-                                h3{modal title}
-                           </div>
-                            <div class="modal-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit perferendis cupiditate inventore nam, aperiam a quae, molestiae provident reprehenderit, quisquam temporibus? At saepe laudantium facere sed laboriosam, ullam accusantium et.</p>
+                            <div class="modal-header py-8 border-bottom-1 color-border-bottom-gray-primary-200">
+                                <h3>Modal Tittle</h3>
                             </div>
-                            <div class="modal-footer">
-                                <button>cancel</button>
-                                <button>ok</button>
+                            <div class="modal-body py-8">
+                                <p class="py-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
+                                    perferendis
+                                    cupiditate inventore nam, aperiam a quae, molestiae provident reprehenderit,
+                                    quisquam temporibus? At saepe laudantium facere sed laboriosam, ullam accusantium
+                                    et.</p>
+                            </div>
+                            <div
+                                class="modal-footer py-8 border-top-1 color-border-top-gray-primary-200 d-flex flex-justify-content-end flex-gap-5">
+                                <button
+                                    class="cursor-pointer border-1 p-6 color-border-gray-primary-300 color-bg-gray-light-50 border-radius-3">cancel</button>
+                                <button class="cursor-pointer cursor-pointer border-1 p-6 color-border-indigo-primary-300 border-radius-3 color-bg-indigo-primary-500 color-text-white">ok</button>
                             </div>
                         </div>
                     </div>
