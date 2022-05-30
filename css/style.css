@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+}
+
+div.animated-line {
+    transition: width ease 500ms;
+}
+
+nav ul li:hover div.animated-line {
+    width: 100%;
+}

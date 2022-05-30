@@ -1,0 +1,137 @@
+/* text helpers */
+.text-center {
+    text-align: center;
+}
+.text-decoration-none {
+    text-decoration: none;
+}
+
+/* directions */
+/* x - left and right */
+/* y - top and bottom */
+.direction-x-0 {
+    left: 0;
+    right: 0;
+}
+
+.direction-y-0 {
+    top: 0;
+    bottom: 0;
+}
+
+.direction-bottom-0 {
+    bottom: 0;
+}
+
+.direction-right-5 {
+    right: 0.55rem;
+}
+
+.direction-top-5 {
+    top: 0.55rem;
+}
+/* padding helpers */
+/* 
+padding top and bottom (y)
+0.8rem based on 16px - 0.8 * 16px = 12.8px
+*/
+.py-8 {
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+
+.p-8 {
+    padding: 0.8rem;
+}
+
+.p-6 {
+    padding: 0.6rem;
+}
+
+/* margin helpers */
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my-5 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.mb-10 {
+    margin-bottom: 1rem;
+}
+
+/* position helpers */
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+/* border helpers */
+.border-none {
+    border: none;
+}
+
+.border-1 {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.border-bottom-1 {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.border-top-1 {
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.border-radius-10 {
+    border-radius: 1rem;
+}
+
+.border-radius-5 {
+    border-radius: 0.5rem;
+}
+
+.border-radius-3 {
+    border-radius: 0.3rem;
+}
+
+/* other helpers */
+.border-red-1 {
+    border: solid 1px red;
+    min-height: 15px;
+}
+
+/* list helpers */
+.list-unstyled li {
+    list-style-type: none;
+}
+
+/* height helpers */
+.h-2 {
+    height: 2px;
+}
+.min-h-350 {
+    min-height: 350px;
+}
+
+/* width helpers */
+.w-0 {
+    width: 0%;
+}
+.w-100 {
+    width: 100%;
+}
+
+/* cursor helpers */
+.cursor-pointer {
+    cursor: pointer;
+}

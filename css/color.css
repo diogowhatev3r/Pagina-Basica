@@ -1,0 +1,104 @@
+:root {
+    --indigo-primary-900: #1a237e;
+    --indigo-light-900: #534bae;
+    --indigo-dark-900: #000051;
+    --indigo-primary-500: #3f51b5;
+    --indigo-light-500: #757de8;
+    --indigo-dark-500: #002984;
+    --indigo-primary-300: #7986cb;
+    --indigo-light-300: #aab6fe;
+    --indigo-dark-300: #49599a;
+
+    --gray-primary-600: #757575;
+    --gray-light-600: #a4a4a4;
+    --gray-dark-600: #494949;
+    --gray-primary-300: #e0e0e0;
+    --gray-light-300: #ffffff;
+    --gray-dark-300: #aeaeae;
+    --gray-primary-200: #eeeeee;
+    --gray-light-200: #ffffff;
+    --gray-dark-200: #bcbcbc;
+    --gray-primary-50: #fafafa;
+    --gray-light-50: #ffffff;
+    --gray-dark-50: #c7c7c7;
+}
+
+/* texts */
+.color-text-white {
+    color: #fff;
+}
+
+.color-text-indigo-primary-900 {
+    color: var(--indigo-primary-900);
+}
+
+.color-text-indigo-light-900 {
+    color: var(--indigo-light-900);
+}
+
+.color-text-indigo-dark-900 {
+    color: var(--indigo-dark-900);
+}
+
+/* backgrounds */
+
+.color-bg-indigo-primary-500 {
+    background-color: var(--indigo-primary-500);
+}
+
+.color-bg-indigo-light-500 {
+    background-color: var(--indigo-light-500);
+}
+
+.color-bg-indigo-dark-500 {
+    background-color: var(--indigo-dark-500);
+}
+
+.color-bg-gray-primary-50 {
+    background-color: var(--gray-primary-50);
+}
+
+.color-bg-gray-light-50 {
+    background-color: var(--gray-light-50);
+}
+
+.color-bg-gray-dark-50 {
+    background-color: var(--gray-dark-50);
+}
+
+/* borders */
+.color-border-bottom-gray-primary-300 {
+    border-bottom-color: var(--gray-primary-300);
+}
+
+.color-border-top-gray-primary-300 {
+    border-top-color: var(--gray-primary-300);
+}
+
+.color-border-gray-primary-300 {
+    border-color: var(--gray-primary-300);
+}
+
+.color-border-bottom-gray-primary-300 {
+    border-bottom-color: var(--gray-primary-300);
+}
+
+.color-border-top-gray-primary-300 {
+    border-top-color: var(--gray-primary-300);
+}
+
+.color-border-gray-primary-200 {
+    border-color: var(--gray-primary-200);
+}
+
+.color-border-bottom-gray-primary-200 {
+    border-bottom-color: var(--gray-primary-200);
+}
+
+.color-border-top-gray-primary-200 {
+    border-top-color: var(--gray-primary-200);
+}
+
+.color-border-indigo-primary-300 {
+    border-color: var(--gray-indigo-300);
+}
